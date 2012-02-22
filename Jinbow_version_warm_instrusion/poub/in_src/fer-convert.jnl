@@ -1,0 +1,8 @@
+set memo/size=500
+DEFINE AXIS/X=1:98:1 x
+DEFINE AXIS/Y=1:194:1 y
+DEFINE AXIS/Z=1:66:1 z
+DEFINE AXIS/t=1:100:1 t
+DEFINE GRID/X=x/Y=y/Z=z/t=t g
+FILE/VAR=u/GRID=g/FORMAT=stream/type=r8 tmp-u.bin
+save/clobber/file=tmp-u.nc u

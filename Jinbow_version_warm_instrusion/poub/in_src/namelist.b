@@ -1,0 +1,12 @@
+&PARAM
+nsteps=4000,
+dtf=0.00432d0,
+ngraph=1000,
+frame_int=100,
+fnhhy=1.0,
+dx=4.0e3,
+dy=4.0e3,
+&
+&traj
+NP=1,
+&

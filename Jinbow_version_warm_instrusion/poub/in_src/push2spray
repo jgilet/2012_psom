@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scp ./* jbw@spray.whoi.edu:/Users/jbw/Project/workspace/postdoc/psom/src
