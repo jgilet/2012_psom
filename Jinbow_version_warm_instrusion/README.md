@@ -2,24 +2,34 @@
 PSOM: Process Study Ocean Model
 ===============================
 
+*****************************
 Description of this version: 2012/02/22 version, obtained by JBG, from JBW code. 
+*****************************
 
 Modifications from JBW version:
 
+  ****************************
   copied stprofile_X
 
+  ****************************
   copied viscous
 
+  ****************************
   changed namelist
 
+  ****************************
   changed grid.h
 
+  ****************************
   got rid of sponge
 
+  ****************************
   got rid of load_dy
 
+  ****************************
   got rid of load_r
 
+  ****************************
   got rid of relaxation
 
   ****************************
